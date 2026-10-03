@@ -6,5 +6,6 @@
 ## 实验内容：
 ### 1.Anaconda的安装及配置：
 <p>（我下载的是miniconda，这里直接看结果）</p>
-<div align="center"> <img src="">
+<div align="center"> <img width="1475" height="753" alt="image" src="https://github.com/user-attachments/assets/0da0a30d-5344-4faf-a862-bb3015f13b74" width="70%" alt="Anaconda安装结果"/> </div>
+
 
