@@ -23,7 +23,9 @@
 <p> 结果图：</p>
 <img width="1274" height="626" alt="image" src="https://github.com/user-attachments/assets/60349047-9b5d-43be-9e58-b2386e72e430" />
 
-
+### 4.图像连接
+<P> 先提取匹配点的坐标，然后使用RANSAC算法估计单应矩阵（透视变换矩阵），再获取输入图像尺寸，再计算图像b变换后的四个角点坐标，再确定拼接后图像的最终尺寸（包含所有像素），然后创建平移矩阵，确保所有像素都在可见区域内，再对图像b进行透视变换和平移，最后将图像a复制到拼接结果的对应位置 </P>
+<img width="1036" height="575" alt="image" src="https://github.com/user-attachments/assets/0eae84cb-815e-44e5-b0c6-1a27b3854efe" />
 
 
 
